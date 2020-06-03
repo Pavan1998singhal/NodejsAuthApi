@@ -21,7 +21,7 @@ app.post('/api/posts', verifyToken, (req,res) => {
         }
     });
 });
-
+console.log('testing');
 app.post('/api/login', (req,res) => {
     //Mock User
     const user = {
